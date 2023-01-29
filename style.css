@@ -1,0 +1,20 @@
+#result-search {
+    margin: 2rem 0;
+}
+
+.header {
+    /*margin: auto;*/
+    text-align: center;
+}
+
+#result-search {
+    display: flex;
+    align-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    height: 250px;
+
+}
