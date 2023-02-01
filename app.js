@@ -4,7 +4,7 @@ const button = document.getElementById("btn")
 const resul = document.getElementById("result-search")
 
 button.addEventListener("click", function (){
-
+    resul.innerHTML = ''
     const url = `https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&list=search&formatversion=2&srsearch=${search.value}&srnamespace=0&srlimit=4`
 
     fetch(url)
